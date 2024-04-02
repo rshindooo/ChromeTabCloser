@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Close Old Tabs",
+    "version": "1.0",
+    "description": "Closes Chrome tabs that are more than one day old",
+    "permissions": ["tabs"],
+    "action": {
+      "default_title": "Close Old Tabs"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
